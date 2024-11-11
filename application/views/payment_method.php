@@ -6,7 +6,7 @@
       <meta http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
       <meta name="viewport"content="width=device-width, initial-scale=1.0">
       <title>Bk stream app | Admin</title>
-      <link rel="icon" href="<?=base_url()?>assets/images/1.png" type="image/x-icon">
+     
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/bootstrap.min.css">
