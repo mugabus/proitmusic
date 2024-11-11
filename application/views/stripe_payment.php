@@ -4,7 +4,7 @@
    
     <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/stripe-bootstrap.min.css" />
         <script type="text/javascript" src="<?=base_url()?>assets/js/stripe-jquery.min.js"></script>
-    <link rel="icon" href="<?=base_url();?>assets/images/1.png" type="image/x-icon">
+    <link rel="icon" href="<?=base_url();?>assets/images/" type="image/x-icon">
     <style type="text/css">
         .panel-title {
         display: inline;

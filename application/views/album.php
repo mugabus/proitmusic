@@ -31,7 +31,7 @@
          <div class="navbar-wrapper">
             <div class="navbar-logo">
                <a href="<?=base_url()?>admin">
-               <img alt="Bk stream app" src="<?=base_url()?>/assets/images/logo.png">
+               <!-- <img alt="Bk stream app" src="<?=base_url()?>/assets/images/E.png">/add a logo/ -->
                </a>
                <a class="mobile-menu" id="mobile-collapse" href="#!">
                <i class="feather icon-menu icon-toggle-right"></i>

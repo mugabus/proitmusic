@@ -26,7 +26,7 @@
                <div class="col-sm-12">
                   <form class="md-float-material form-material" action="<?=base_url()?>login/loginprocess" method="post">
                      <div class="text-center">
-                        <h3><img alt="Bk stream app" src="<?=base_url()?>/assets/images/logo1.png"></h3>
+                        
                      </div>
                      <div class="auth-box card">
                         <div class="card-block">
