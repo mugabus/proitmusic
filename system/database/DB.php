@@ -53,7 +53,7 @@ function &DB($params = '', $query_builder_override = NULL)
 	// Load the DB config file if a DSN string wasn't passed
 	if (is_string($params) && strpos($params, '://') === FALSE)
 	{
-		// Is the config file in the environment folder?
+		
 		if ( ! file_exists($file_path = APPPATH.'config/'.ENVIRONMENT.'/database.php')
 			&& ! file_exists($file_path = APPPATH.'config/database.php'))
 		{
@@ -62,8 +62,7 @@ function &DB($params = '', $query_builder_override = NULL)
 
 		include($file_path);
 
-		// Make packages contain database config files,
-		// given that the controller instance already exists
+		
 		if (class_exists('CI_Controller', FALSE))
 		{
 			foreach (get_instance()->load->get_package_paths() as $path)
@@ -105,13 +104,7 @@ function &DB($params = '', $query_builder_override = NULL)
 	}
 	elseif (is_string($params))
 	{
-		/**
-		 * Parse the URL from the DSN string
-		 * Database settings can be passed as discreet
-		 * parameters or as a data source name in the first
-		 * parameter. DSNs must have this prototype:
-		 * $dsn = 'driver://username:password@hostname/database';
-		 */
+		
 		if (($dsn = @parse_url($params)) === FALSE)
 		{
 			show_error('Invalid DB Connection String');
